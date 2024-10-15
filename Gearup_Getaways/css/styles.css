@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    border-bottom: 2px solid black;
+    background-color: #00008b; /* Dark Blue */
+    padding: 1em 0; /* Add padding for increased height */
+}
+
+.navbar-dark.bg-dark-blue {
+    background-color: transparent; /* Background handled by header */
+}
+
+.navbar-brand {
+    font-family: 'Poppins', sans-serif; /* Use Poppins for the brand name */
+    font-size: 2em; /* Increase font size */
+    color: white !important; /* White text color for the header */
+    font-weight: 700; /* Bold font */
+}
+
+.nav-link {
+    color: white !important; /* White text color for the header */
+    font-weight: bold;
+    font-size: 1.2em; /* Increase font size */
+}
+
+.nav-link:hover {
+    color: #006400 !important; /* Dark Green color on hover */
+}
+
+.footer-dark-blue {
+    background-color: #00008b; /* Dark Blue */
+}
+
+.footer {
+    color: white;
+    padding: 1em;
+    text-align: center;
+    margin-top: auto;
+    border-top: 2px solid black; /* Black border at the top of the footer */
+}
+
+.banner {
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    background: url('/gearup_getaways/images/banner.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.banner h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+}
+
+main.container {
+    flex: 1;
+    padding-top: 20px; /* Add some padding to the top of the main content */
+}
+
+.home-content {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.home-content h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.home-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.home-content .btn {
+    margin-top: 20px;
+    font-size: 1.2em;
+    padding: 10px 20px;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.feature {
+    text-align: center;
+    max-width: 250px;
+}
+
+.feature-block {
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-block img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.feature-block:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.category-content {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.category-block {
+    border: 2px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.category-block img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.category-block:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.category-block h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.about-us {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light grey background */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Center-align text */
+}
+
+.about-us h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.about-us p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
+/* Custom styles for login and register pages */
+
+.card-header {
+    background-color: #00008b; /* Dark Blue */
+    color: white;
+}
+
+.btn-primary {
+    background-color: #00008b;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #006400; /* Dark Green */
+    border: none;
+}
